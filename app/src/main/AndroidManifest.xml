@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mycompany.phaseiii" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SearchRestaurants"
+            android:label="SearchRestaurants" >
+        </activity>
+        <activity
+            android:name=".ownerMain"
+            android:label="@string/title_activity_owner_main" >
+        </activity>
+        <activity
+            android:name=".inspectorMain"
+            android:label="@string/title_activity_inspector_main" >
+        </activity>
+        <activity
+            android:name=".guestMain"
+            android:label="@string/title_activity_guest_main" >
+        </activity>
+        <activity
+            android:name=".Complain"
+            android:label="@string/title_activity_complain" >
+        </activity>
+        <activity
+            android:name=".AddRestaurant"
+            android:label="@string/title_activity_add_restaurant" >
+        </activity>
+        <activity
+            android:name=".ownerInspectionSelecting"
+            android:label="@string/title_activity_owner_inspection_selecting" >
+        </activity>
+        <activity
+            android:name=".ownerInspectionResults"
+            android:label="@string/title_activity_owner_inspection_results" >
+        </activity>
+        <activity
+            android:name=".insertInspection"
+            android:label="@string/title_activity_insert_inspection" >
+        </activity>
+        <activity
+            android:name=".comments"
+            android:label="@string/title_activity_comments" >
+        </activity>
+        <activity
+            android:name=".searchResults"
+            android:label="@string/title_activity_search_results" >
+        </activity>
+        <activity
+            android:name=".BestRestaurants"
+            android:label="@string/title_activity_best_restaurants" >
+        </activity>
+        <activity
+            android:name=".BestRestaurant"
+            android:label="@string/title_activity_best_restaurant" >
+        </activity>
+        <activity
+            android:name=".BestRestaurantResults"
+            android:label="@string/title_activity_best_restaurant_results" >
+        </activity>
+        <activity
+            android:name=".MonthlyReport"
+            android:label="@string/title_activity_monthly_report" >
+        </activity>
+        <activity
+            android:name=".MonthlyReportResults"
+            android:label="@string/title_activity_monthly_report_results" >
+        </activity>
+        <activity
+            android:name=".WorstRestaurant"
+            android:label="@string/title_activity_worst_restaurant" >
+        </activity>
+        <activity
+            android:name=".WorstRestaurantResults"
+            android:label="@string/title_activity_worst_restaurant_results" >
+        </activity>
+        <activity
+            android:name=".YearlyReport"
+            android:label="@string/title_activity_yearly_report" >
+        </activity>
+        <activity
+            android:name=".YearlyReportResults"
+            android:label="@string/title_activity_yearly_report_results" >
+        </activity>
+        <activity
+            android:name=".activity_yearly_report_results_row"
+            android:label="@string/title_activity_activity_yearly_report_results_row" >
+        </activity>
+    </application>
+
+</manifest>

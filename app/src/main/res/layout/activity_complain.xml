@@ -1,0 +1,136 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.mycompany.phaseiii.Complain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/restaurant"
+            android:text="Restaurant Name: " android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/restaurantSubmission"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/restaurant"
+            android:maxLines="1"
+            android:textColor="#727272"/>
+
+        <TextView
+            android:id="@+id/street"
+            android:text="Street: " android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/streetSubmission"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/street"
+            android:maxLines="1"
+            android:textColor="#727272"/>
+
+        <TextView
+            android:id="@+id/cityState"
+            android:text="City, State: " android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/cityStateSubmission"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/cityState"
+            android:maxLines="1"
+            android:textColor="#727272"/>
+
+        <TextView
+            android:id="@+id/zipcode"
+            android:text="Zipcode: " android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/zipcodeSubmission"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/zipcode"
+            android:maxLines="1"
+            android:textColor="#727272"/>
+
+        <TextView
+            android:id="@+id/date"
+            android:text="Date of Meal (yyyy-mm-dd):" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/dateSubmission"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/date"
+            android:textColor="#727272"/>
+
+        <TextView
+            android:id="@+id/customerFirst"
+            android:text="Customer First Name: " android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/customerFirstSubmission"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/customerFirst"
+            android:textColor="#727272"/>
+
+        <TextView
+            android:id="@+id/customerLast"
+            android:text="Customer Last Name: " android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/customerLastSubmission"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/customerLast"
+            android:textColor="#727272"/>
+
+        <TextView
+            android:id="@+id/customerPhone"
+            android:text="Customer Phone: " android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/customerPhoneSubmission"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/customerPhone"
+            android:textColor="#727272"/>
+
+        <TextView
+            android:id="@+id/complaint"
+            android:text="Complaint: " android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/complainSubmission"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/complaint"
+            android:textColor="#727272"/>
+
+        <Button
+            android:id="@+id/complainButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_weight = "1"
+            android:text="File Food/Safety Complaint"/>
+
+
+    </LinearLayout>
+</ScrollView>

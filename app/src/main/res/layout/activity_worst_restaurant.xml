@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SearchRestaurants">
+
+    <TextView
+        android:id="@+id/yearLabel"
+        android:text="Year: " android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/yearSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@+id/yearLabel"
+        android:layout_toLeftOf="@+id/yearLabel"
+        android:maxLines="1"
+        android:textColor="#727272"/>
+
+    <TextView
+        android:id="@+id/complaintsLabel"
+        android:text="Number of Complaints: " android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/complaintsSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@+id/complaintsLabel"
+        android:layout_toLeftOf="@+id/complaintsLabel"
+        android:maxLines="1"
+        android:textColor="#727272"/>
+
+    <TextView
+        android:id="@+id/inspectionScoreLabel"
+        android:text="Enter Inspection Score: " android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/inspectionScoreSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@+id/inspectionScoreLabel"
+        android:layout_toLeftOf="@+id/inspectionScoreLabel"
+        android:maxLines="1"
+        android:textColor="#727272"/>
+
+
+
+
+    <Button
+        android:id="@+id/searchButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search"/>
+
+</LinearLayout>
